@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "hello, $USER"
+echo ""
+echo -n "Today's date is " ; date ; echo -n ", this is week " ; date +%V ; echo "."
+echo ""
+echo "these users are currently connected."
+w | cut -d " " -f 1 - | grep -v USER
+echo ""
+echo -n "This is " ; uname -s ; echo -n " system running on a " ; uname -m ; echo " processor."
+echo ""
+echo "that's all folks!"
