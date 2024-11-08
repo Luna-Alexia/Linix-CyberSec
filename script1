@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Hello $USER, I'm going to list your files."
+echo "The current directory is $PWD"
+ls -l
