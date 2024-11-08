@@ -1,0 +1,13 @@
+#!/bin/bash
+echo ""
+echo "My name is $0!"
+echo ""
+echo "My proccessing id is: $$"
+echo ""
+echo "Please enter three numbers for parameters:"
+read varNumOne
+read varNumTwo
+read varNumThree
+echo "Parameter passed(1): $varNumOne"
+echo "Parameter passed(2): $varNumTwo"
+echo "Parameter passed(3): $varNumThree"
